@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        h1{
+            font-size: 40px;
+            color: tomato;
+            font-weight: lighter;
+            text-decoration: line-through;
+            font-family: "Quicksand", sans-serif;
+            font-style: italic;
+        }
+        p{
+            font-size: 30px;
+            color: aqua;
+            font-weight: lighter;
+            line-height: 40px;
+            text-decoration: line-through;
+            font-style: normal;
+            word-spacing: 20px;
+            letter-spacing: 10px
+        }
+        .selectors{
+            font-size: 30px;
+            color: green;
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+
+        .girl{
+            font-size: 30px;
+            color: pink;
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+
+        #bus{
+            font-size: 30px;
+            color: blue;
+            text-decoration: underline;
+            font-weight: lighter;  
+        }
+        p,h1,li{
+        border: 1px solid red;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css part 2</title>
 </head>
 <body>
-    <h1 style="font-size: 40px; color: tomato; text-decoration: underline; font-style: italic;">Introduction to css</h1>
+    <h1>Introduction to css</h1>
     <p>
         CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files (. css).
     </p>
@@ -16,7 +62,7 @@
     </h2>
     <ol>
         <li>
-            Inline css
+          Inline css
         </li>
         <li>
             Internal css
@@ -48,5 +94,22 @@
                 <i class="fa-brands fa-instagram"></i>
             </a>
     </div>
+    <p>
+        I aim to be able to develop websites.
+    </p>
+    <h1 class="selectors">
+        css selectors
+        <ol>
+            <li>
+                Name selector
+            </li>
+        </ol>
+        </h1>
+        <p class=" girl">
+            I am a girl
+        </p>
+    <h1 id="bus">
+        Chidimma Anolue
+    </h1>
     </body>
 </html>
